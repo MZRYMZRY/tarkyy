@@ -73,48 +73,48 @@
         "BodyParts": {
           "Chest": {
             "Health": {
-              "Current": 25.5,
+              "Current": 85,
               "Maximum": 85
             }
           },
           "Head": {
             "Health": {
-              "Current": 10.5,
+              "Current": 35,
               "Maximum": 35
             }
           },
           "LeftArm": {
             "Health": {
-              "Current": 18,
+              "Current": 60,
               "Maximum": 60
             }
           },
           "LeftLeg": {
             "Health": {
-              "Current": 19.5,
+              "Current": 65,
               "Maximum": 65
             }
           },
           "RightArm": {
             "Health": {
-              "Current": 18,
+              "Current": 60,
               "Maximum": 60
             }
           },
           "RightLeg": {
             "Health": {
-              "Current": 19.5,
+              "Current": 65,
               "Maximum": 65
             }
           },
           "Stomach": {
             "Health": {
-              "Current": 21,
+              "Current": 70,
               "Maximum": 70
             }
           }
         },
-        "UpdateTime": 1766983972
+        "UpdateTime": 1767285317
       },
       "Inventory": {
         "items": [
@@ -6299,7 +6299,7 @@
         "HideoutCounters": null,
         "Seed": "c84d3125d77bd860b874c52cf08b1bb0",
         "MannequinPoses": {},
-        "sptUpdateLastRunTimestamp": 1766983972,
+        "sptUpdateLastRunTimestamp": 1767285370,
         "Customization": {
           "Wall": "675844bdf94a97cbbe096f1a",
           "Floor": "6758443ff94a97cbbe096f18",
@@ -6464,6 +6464,38 @@
           "salesSum": 0,
           "standing": 0.2,
           "nextResupply": 1766990650,
+          "unlocked": true,
+          "disabled": false
+        },
+        "bd3a8b28356d9c6509966546": {
+          "loyaltyLevel": 0,
+          "salesSum": 0,
+          "standing": 0.2,
+          "nextResupply": 1767287415,
+          "unlocked": false,
+          "disabled": false
+        },
+        "69325b507cd59da087ad2912": {
+          "loyaltyLevel": 1,
+          "salesSum": 0,
+          "standing": 0.2,
+          "nextResupply": 1767289501,
+          "unlocked": true,
+          "disabled": false
+        },
+        "6748bdca5e70634464b214a9": {
+          "loyaltyLevel": 1,
+          "salesSum": 0,
+          "standing": 0.2,
+          "nextResupply": 1767287166,
+          "unlocked": true,
+          "disabled": false
+        },
+        "691ca7ceec00e92e47c7520a": {
+          "loyaltyLevel": 1,
+          "salesSum": 0,
+          "standing": 0.2,
+          "nextResupply": 1767289292,
           "unlocked": true,
           "disabled": false
         }
@@ -7317,11 +7349,936 @@
     "equipmentBuilds": [],
     "magazineBuilds": []
   },
-  "dialogues": {},
+  "dialogues": {
+    "54cb50c76803fa8b248b4571": {
+      "attachmentsNew": 2,
+      "new": 2,
+      "type": 2,
+      "pinned": false,
+      "messages": [
+        {
+          "_id": "6956a245965a3e78e037cecd",
+          "uid": "54cb50c76803fa8b248b4571",
+          "type": 13,
+          "dt": 1767285317,
+          "templateId": "5fd4c8b59e4b2a58b34bbd28 0",
+          "text": "",
+          "hasRewards": true,
+          "rewardCollected": false,
+          "items": {
+            "stash": "64b996c9d0de4697180359b6",
+            "data": [
+              {
+                "_id": "6956a245965a3e78e037cece",
+                "_tpl": "544fb45d4bdc2dee738b4568",
+                "parentId": "64b996c9d0de4697180359b6",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 1
+                }
+              },
+              {
+                "_id": "6956a245965a3e78e037cecf",
+                "_tpl": "5d02778e86f774203e7dedbe",
+                "parentId": "64b996c9d0de4697180359b6",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 1
+                }
+              },
+              {
+                "_id": "6956a245965a3e78e037ced0",
+                "_tpl": "6034d0230ca681766b6a0fb5",
+                "parentId": "64b996c9d0de4697180359b6",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 1
+                }
+              }
+            ]
+          },
+          "maxStorageTime": 172800
+        },
+        {
+          "_id": "6956a245965a3e78e037ced1",
+          "uid": "54cb50c76803fa8b248b4571",
+          "type": 13,
+          "dt": 1767285317,
+          "templateId": "5fd4c8d49e4b2a58b34bbd29 0",
+          "text": "",
+          "hasRewards": true,
+          "rewardCollected": false,
+          "items": {
+            "stash": "64b996c9d0de4697180359b6",
+            "data": [
+              {
+                "_id": "6956a245965a3e78e037ced2",
+                "_tpl": "5751a25924597722c463c472",
+                "parentId": "64b996c9d0de4697180359b6",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 1
+                }
+              },
+              {
+                "_id": "6956a245965a3e78e037ced3",
+                "_tpl": "5751a25924597722c463c472",
+                "parentId": "64b996c9d0de4697180359b6",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 1
+                }
+              },
+              {
+                "_id": "6956a245965a3e78e037ced4",
+                "_tpl": "5ca20d5986f774331e7c9602",
+                "parentId": "64b996c9d0de4697180359b6",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 1
+                }
+              },
+              {
+                "_id": "6956a245965a3e78e037ced5",
+                "_tpl": "5755356824597772cb798962",
+                "parentId": "64b996c9d0de4697180359b6",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 1
+                }
+              },
+              {
+                "_id": "6956a245965a3e78e037ced6",
+                "_tpl": "5755356824597772cb798962",
+                "parentId": "64b996c9d0de4697180359b6",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 1
+                }
+              },
+              {
+                "_id": "6956a245965a3e78e037ced7",
+                "_tpl": "5755356824597772cb798962",
+                "parentId": "64b996c9d0de4697180359b6",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 1
+                }
+              }
+            ]
+          },
+          "maxStorageTime": 172800
+        }
+      ],
+      "_id": "54cb50c76803fa8b248b4571"
+    },
+    "5a7c2eca46aef81a7ca2145d": {
+      "attachmentsNew": 1,
+      "new": 1,
+      "type": 2,
+      "pinned": false,
+      "messages": [
+        {
+          "_id": "6956a245965a3e78e037ced8",
+          "uid": "5a7c2eca46aef81a7ca2145d",
+          "type": 13,
+          "dt": 1767285317,
+          "templateId": "6776e324810eb26b880fb4a5 0",
+          "text": "",
+          "hasRewards": true,
+          "rewardCollected": false,
+          "items": {
+            "stash": "678d4d90fc70718b8c4067ad",
+            "data": [
+              {
+                "_id": "6956a245965a3e78e037ced9",
+                "_tpl": "590c2c9c86f774245b1f03f2",
+                "parentId": "678d4d90fc70718b8c4067ad",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 1,
+                  "SpawnedInSession": true
+                }
+              }
+            ]
+          },
+          "maxStorageTime": 259200
+        }
+      ],
+      "_id": "5a7c2eca46aef81a7ca2145d"
+    },
+    "59e7125688a45068a6249071": {
+      "attachmentsNew": 2,
+      "new": 2,
+      "type": 7,
+      "pinned": false,
+      "messages": [
+        {
+          "_id": "6956a245965a3e78e037cedb",
+          "uid": "59e7125688a45068a6249071",
+          "type": 7,
+          "dt": 1767285317,
+          "text": "<ch>Hello there, friend. Happy New Year to you! You've probably forgotten that holidays exist, but I think it's important to remain human in any situation. Wishing you lots of working graphics cards this year and that your Hideout never lets you down. Take this gift and be happy!</ch><cz>Hello there, friend. Happy New Year to you! You've probably forgotten that holidays exist, but I think it's important to remain human in any situation. Wishing you lots of working graphics cards this year and that your Hideout never lets you down. Take this gift and be happy!</cz><en>Hello there, friend. Happy New Year to you! You've probably forgotten that holidays exist, but I think it's important to remain human in any situation. Wishing you lots of working graphics cards this year and that your Hideout never lets you down. Take this gift and be happy!</en><fr>Hello there, friend. Happy New Year to you! You've probably forgotten that holidays exist, but I think it's important to remain human in any situation. Wishing you lots of working graphics cards this year and that your Hideout never lets you down. Take this gift and be happy!</fr><ge>Hello there, friend. Happy New Year to you! You've probably forgotten that holidays exist, but I think it's important to remain human in any situation. Wishing you lots of working graphics cards this year and that your Hideout never lets you down. Take this gift and be happy!</ge><hu>Hello there, friend. Happy New Year to you! You've probably forgotten that holidays exist, but I think it's important to remain human in any situation. Wishing you lots of working graphics cards this year and that your Hideout never lets you down. Take this gift and be happy!</hu><it>Hello there, friend. Happy New Year to you! You've probably forgotten that holidays exist, but I think it's important to remain human in any situation. Wishing you lots of working graphics cards this year and that your Hideout never lets you down. Take this gift and be happy!</it><jp>Hello there, friend. Happy New Year to you! You've probably forgotten that holidays exist, but I think it's important to remain human in any situation. Wishing you lots of working graphics cards this year and that your Hideout never lets you down. Take this gift and be happy!</jp><kr>Hello there, friend. Happy New Year to you! You've probably forgotten that holidays exist, but I think it's important to remain human in any situation. Wishing you lots of working graphics cards this year and that your Hideout never lets you down. Take this gift and be happy!</kr><pl>Hello there, friend. Happy New Year to you! You've probably forgotten that holidays exist, but I think it's important to remain human in any situation. Wishing you lots of working graphics cards this year and that your Hideout never lets you down. Take this gift and be happy!</pl><po>Hello there, friend. Happy New Year to you! You've probably forgotten that holidays exist, but I think it's important to remain human in any situation. Wishing you lots of working graphics cards this year and that your Hideout never lets you down. Take this gift and be happy!</po><sk>Hello there, friend. Happy New Year to you! You've probably forgotten that holidays exist, but I think it's important to remain human in any situation. Wishing you lots of working graphics cards this year and that your Hideout never lets you down. Take this gift and be happy!</sk><es>Hello there, friend. Happy New Year to you! You've probably forgotten that holidays exist, but I think it's important to remain human in any situation. Wishing you lots of working graphics cards this year and that your Hideout never lets you down. Take this gift and be happy!</es><es-mx>Hello there, friend. Happy New Year to you! You've probably forgotten that holidays exist, but I think it's important to remain human in any situation. Wishing you lots of working graphics cards this year and that your Hideout never lets you down. Take this gift and be happy!</es-mx><tu>Hello there, friend. Happy New Year to you! You've probably forgotten that holidays exist, but I think it's important to remain human in any situation. Wishing you lots of working graphics cards this year and that your Hideout never lets you down. Take this gift and be happy!</tu><ru>Ну, здравствуй, друг! С Новым годом тебя! Ты наверное забыл уже, что есть праздники, но я считаю, важно оставаться людьми в любой ситуации. Работающих видеокарт тебе в новом году и убежище чтобы не подводило. Держи и радуйся!</ru>",
+          "hasRewards": true,
+          "rewardCollected": false,
+          "items": {
+            "stash": "6956a245965a3e78e037ceda",
+            "data": [
+              {
+                "_id": "6956a245965a3e78e037cedc",
+                "_tpl": "645e0c6b3b381ede770e1cc9",
+                "parentId": "6956a245965a3e78e037ceda",
+                "slotId": "main",
+                "upd": {
+                  "Repairable": {
+                    "Durability": 100,
+                    "MaxDurability": 100
+                  }
+                }
+              },
+              {
+                "_id": "6956a245965a3e78e037cedd",
+                "_tpl": "6450ec2e7da7133e5a09ca96",
+                "parentId": "6956a245965a3e78e037cedc",
+                "slotId": "mod_magazine"
+              },
+              {
+                "_id": "6956a245965a3e78e037cede",
+                "_tpl": "6452519e3d52156624001fd5",
+                "parentId": "6956a245965a3e78e037cedc",
+                "slotId": "mod_stock"
+              },
+              {
+                "_id": "6956a245965a3e78e037cedf",
+                "_tpl": "645123013d52156624001fd1",
+                "parentId": "6956a245965a3e78e037cedc",
+                "slotId": "mod_barrel"
+              },
+              {
+                "_id": "6956a245965a3e78e037cee0",
+                "_tpl": "64527a263d52156624001fd7",
+                "parentId": "6956a245965a3e78e037cedf",
+                "slotId": "mod_muzzle"
+              },
+              {
+                "_id": "6956a245965a3e78e037cee1",
+                "_tpl": "6448f2f6d4928d46d30be3f6",
+                "parentId": "6956a245965a3e78e037cedf",
+                "slotId": "mod_handguard"
+              },
+              {
+                "_id": "6956a245965a3e78e037cee2",
+                "_tpl": "6450ec2e7da7133e5a09ca96",
+                "parentId": "6956a245965a3e78e037ceda",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 1
+                }
+              },
+              {
+                "_id": "6956a245965a3e78e037cee3",
+                "_tpl": "6450ec2e7da7133e5a09ca96",
+                "parentId": "6956a245965a3e78e037ceda",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 1
+                }
+              },
+              {
+                "_id": "6956a245965a3e78e037cee4",
+                "_tpl": "6450ec2e7da7133e5a09ca96",
+                "parentId": "6956a245965a3e78e037ceda",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 1
+                }
+              },
+              {
+                "_id": "6956a245965a3e78e037cee5",
+                "_tpl": "6450ec2e7da7133e5a09ca96",
+                "parentId": "6956a245965a3e78e037ceda",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 1
+                }
+              },
+              {
+                "_id": "6956a245965a3e78e037cee6",
+                "_tpl": "57a0dfb82459774d3078b56c",
+                "parentId": "6956a245965a3e78e037ceda",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 50
+                }
+              },
+              {
+                "_id": "6956a245965a3e78e037cee7",
+                "_tpl": "57a0dfb82459774d3078b56c",
+                "parentId": "6956a245965a3e78e037ceda",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 50
+                }
+              },
+              {
+                "_id": "6956a245965a3e78e037cee8",
+                "_tpl": "57a0dfb82459774d3078b56c",
+                "parentId": "6956a245965a3e78e037ceda",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 50
+                }
+              },
+              {
+                "_id": "6956a245965a3e78e037cee9",
+                "_tpl": "57a0dfb82459774d3078b56c",
+                "parentId": "6956a245965a3e78e037ceda",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 50
+                }
+              },
+              {
+                "_id": "6956a245965a3e78e037ceea",
+                "_tpl": "57a0dfb82459774d3078b56c",
+                "parentId": "6956a245965a3e78e037ceda",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 10
+                }
+              },
+              {
+                "_id": "6956a245965a3e78e037ceeb",
+                "_tpl": "572b7f1624597762ae139822",
+                "parentId": "6956a245965a3e78e037ceda",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 1
+                }
+              },
+              {
+                "_id": "6956a245965a3e78e037ceec",
+                "_tpl": "656ddcf0f02d7bcea90bf395",
+                "parentId": "6956a245965a3e78e037ceda",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 1
+                }
+              },
+              {
+                "_id": "6956a245965a3e78e037ceed",
+                "_tpl": "5734773724597737fd047c14",
+                "parentId": "6956a245965a3e78e037ceda",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 1
+                }
+              },
+              {
+                "_id": "6956a245965a3e78e037ceee",
+                "_tpl": "575146b724597720a27126d5",
+                "parentId": "6956a245965a3e78e037ceda",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 1
+                }
+              },
+              {
+                "_id": "6956a245965a3e78e037ceef",
+                "_tpl": "5d40407c86f774318526545a",
+                "parentId": "6956a245965a3e78e037ceda",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 1
+                }
+              },
+              {
+                "_id": "6956a245965a3e78e037cef0",
+                "_tpl": "5df8a6a186f77412640e2e80",
+                "parentId": "6956a245965a3e78e037ceda",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 1
+                }
+              },
+              {
+                "_id": "6956a245965a3e78e037cef1",
+                "_tpl": "5df8a72c86f77412640e2e83",
+                "parentId": "6956a245965a3e78e037ceda",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 1
+                }
+              },
+              {
+                "_id": "6956a245965a3e78e037cef2",
+                "_tpl": "5df8a77486f77412672a1e3f",
+                "parentId": "6956a245965a3e78e037ceda",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 1
+                }
+              },
+              {
+                "_id": "6956a245965a3e78e037cef3",
+                "_tpl": "65709d2d21b9f815e208ff95",
+                "parentId": "6956a245965a3e78e037ceda",
+                "slotId": "main"
+              },
+              {
+                "_id": "6956a245965a3e78e037cef4",
+                "_tpl": "657f9eb7e9433140ad0baf86",
+                "parentId": "6956a245965a3e78e037cef3",
+                "slotId": "Helmet_top"
+              },
+              {
+                "_id": "6956a245965a3e78e037cef5",
+                "_tpl": "657f9ef6c6679fefb3051e1f",
+                "parentId": "6956a245965a3e78e037cef3",
+                "slotId": "Helmet_back"
+              }
+            ]
+          },
+          "maxStorageTime": 72000
+        },
+        {
+          "_id": "6956a245965a3e78e037cef7",
+          "uid": "59e7125688a45068a6249071",
+          "type": 7,
+          "dt": 1767285317,
+          "text": "New year present!",
+          "hasRewards": true,
+          "rewardCollected": false,
+          "items": {
+            "stash": "6956a245965a3e78e037cef6",
+            "data": [
+              {
+                "_id": "6956a245965a3e78e037cef8",
+                "_tpl": "67124dcfa3541f2a1f0e788b",
+                "parentId": "6956a245965a3e78e037cef6",
+                "slotId": "main",
+                "upd": {
+                  "Repairable": {
+                    "Durability": 100,
+                    "MaxDurability": 100
+                  },
+                  "FireMode": {
+                    "FireMode": "single"
+                  }
+                }
+              },
+              {
+                "_id": "6956a245965a3e78e037cef9",
+                "_tpl": "6719023b612cc94b9008e78c",
+                "parentId": "6956a245965a3e78e037cef8",
+                "slotId": "mod_stock"
+              },
+              {
+                "_id": "6956a245965a3e78e037cefa",
+                "_tpl": "6709133fa532466d5403fb7c",
+                "parentId": "6956a245965a3e78e037cef8",
+                "slotId": "mod_magazine"
+              },
+              {
+                "_id": "6956a245965a3e78e037cefb",
+                "_tpl": "670fd0a8d8d4eae4790c8187",
+                "parentId": "6956a245965a3e78e037cef8",
+                "slotId": "mod_barrel"
+              },
+              {
+                "_id": "6956a245965a3e78e037cefc",
+                "_tpl": "6710cea62bb09af72f0e6bf8",
+                "parentId": "6956a245965a3e78e037cefb",
+                "slotId": "mod_mount"
+              },
+              {
+                "_id": "6956a245965a3e78e037cefd",
+                "_tpl": "57d17c5e2459775a5c57d17d",
+                "parentId": "6956a245965a3e78e037cefc",
+                "slotId": "mod_tactical_003"
+              },
+              {
+                "_id": "6956a245965a3e78e037cefe",
+                "_tpl": "6165ac8c290d254f5e6b2f6c",
+                "parentId": "6956a245965a3e78e037cef8",
+                "slotId": "mod_scope"
+              },
+              {
+                "_id": "6956a245965a3e78e037ceff",
+                "_tpl": "6709133fa532466d5403fb7c",
+                "parentId": "6956a245965a3e78e037cef6",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 1
+                }
+              },
+              {
+                "_id": "6956a245965a3e78e037cf00",
+                "_tpl": "6709133fa532466d5403fb7c",
+                "parentId": "6956a245965a3e78e037cef6",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 1
+                }
+              },
+              {
+                "_id": "6956a245965a3e78e037cf01",
+                "_tpl": "6709133fa532466d5403fb7c",
+                "parentId": "6956a245965a3e78e037cef6",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 1
+                }
+              },
+              {
+                "_id": "6956a245965a3e78e037cf02",
+                "_tpl": "5c0d591486f7744c505b416f",
+                "parentId": "6956a245965a3e78e037cef6",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 20
+                }
+              },
+              {
+                "_id": "6956a245965a3e78e037cf03",
+                "_tpl": "5c0d591486f7744c505b416f",
+                "parentId": "6956a245965a3e78e037cef6",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 20
+                }
+              },
+              {
+                "_id": "6956a245965a3e78e037cf04",
+                "_tpl": "5c0d591486f7744c505b416f",
+                "parentId": "6956a245965a3e78e037cef6",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 20
+                }
+              },
+              {
+                "_id": "6956a245965a3e78e037cf05",
+                "_tpl": "5ab8e79e86f7742d8b372e78",
+                "parentId": "6956a245965a3e78e037cef6",
+                "slotId": "main"
+              },
+              {
+                "_id": "6956a245965a3e78e037cf06",
+                "_tpl": "65732688d9d89ff7ac0d9c4c",
+                "parentId": "6956a245965a3e78e037cf05",
+                "slotId": "Soft_armor_front"
+              },
+              {
+                "_id": "6956a245965a3e78e037cf07",
+                "_tpl": "657326978c1cc6dcd9098b56",
+                "parentId": "6956a245965a3e78e037cf05",
+                "slotId": "Soft_armor_back"
+              },
+              {
+                "_id": "6956a245965a3e78e037cf08",
+                "_tpl": "657326a28c1cc6dcd9098b5a",
+                "parentId": "6956a245965a3e78e037cf05",
+                "slotId": "Soft_armor_left"
+              },
+              {
+                "_id": "6956a245965a3e78e037cf09",
+                "_tpl": "657326b08c1cc6dcd9098b5e",
+                "parentId": "6956a245965a3e78e037cf05",
+                "slotId": "soft_armor_right"
+              },
+              {
+                "_id": "6956a245965a3e78e037cf0a",
+                "_tpl": "657326bc5d3a3129fb05f36b",
+                "parentId": "6956a245965a3e78e037cf05",
+                "slotId": "Collar"
+              },
+              {
+                "_id": "6956a245965a3e78e037cf0b",
+                "_tpl": "656f611f94b480b8a500c0db",
+                "parentId": "6956a245965a3e78e037cf05",
+                "slotId": "Front_plate"
+              },
+              {
+                "_id": "6956a245965a3e78e037cf0c",
+                "_tpl": "65573fa5655447403702a816",
+                "parentId": "6956a245965a3e78e037cf05",
+                "slotId": "Back_plate"
+              },
+              {
+                "_id": "6956a245965a3e78e037cf0d",
+                "_tpl": "675956062f6ddfe8ff0e2806",
+                "parentId": "6956a245965a3e78e037cef6",
+                "slotId": "main"
+              },
+              {
+                "_id": "6956a245965a3e78e037cf0e",
+                "_tpl": "676307c004856a0b3c0dfffd",
+                "parentId": "6956a245965a3e78e037cf0d",
+                "slotId": "Helmet_top"
+              },
+              {
+                "_id": "6956a245965a3e78e037cf0f",
+                "_tpl": "676307b4d9ec0af3d9001fa8",
+                "parentId": "6956a245965a3e78e037cf0d",
+                "slotId": "Helmet_back"
+              },
+              {
+                "_id": "6956a245965a3e78e037cf10",
+                "_tpl": "674589d98dd67746010329e6",
+                "parentId": "6956a245965a3e78e037cef6",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 1
+                }
+              },
+              {
+                "_id": "6956a245965a3e78e037cf11",
+                "_tpl": "67458794e21e5d724e066976",
+                "parentId": "6956a245965a3e78e037cef6",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 1
+                }
+              },
+              {
+                "_id": "6956a245965a3e78e037cf12",
+                "_tpl": "5d40407c86f774318526545a",
+                "parentId": "6956a245965a3e78e037cef6",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 1
+                }
+              },
+              {
+                "_id": "6956a245965a3e78e037cf13",
+                "_tpl": "5d40407c86f774318526545a",
+                "parentId": "6956a245965a3e78e037cef6",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 1
+                }
+              },
+              {
+                "_id": "6956a245965a3e78e037cf14",
+                "_tpl": "5d403f9186f7743cac3f229b",
+                "parentId": "6956a245965a3e78e037cef6",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 1
+                }
+              },
+              {
+                "_id": "6956a245965a3e78e037cf15",
+                "_tpl": "5d403f9186f7743cac3f229b",
+                "parentId": "6956a245965a3e78e037cef6",
+                "slotId": "main",
+                "upd": {
+                  "StackObjectsCount": 1
+                }
+              }
+            ]
+          },
+          "maxStorageTime": 259200
+        }
+      ],
+      "_id": "59e7125688a45068a6249071"
+    },
+    "686eea254af06fe1f89b528a": {
+      "attachmentsNew": 1,
+      "new": 1,
+      "type": 1,
+      "Users": [
+        {
+          "_id": "686eea254af06fe1f89b528a",
+          "aid": 2742069,
+          "Info": {
+            "Nickname": "WTTBot",
+            "Side": "Usec",
+            "Level": 69,
+            "MemberCategory": 16,
+            "SelectedMemberCategory": 16
+          }
+        },
+        {
+          "_id": "695205973ae5eb3ae81346a3",
+          "aid": 1624592,
+          "Info": {
+            "Nickname": "retard",
+            "Side": "Usec",
+            "Level": 1,
+            "MemberCategory": 1026,
+            "SelectedMemberCategory": 1024
+          }
+        }
+      ],
+      "pinned": false,
+      "messages": [
+        {
+          "_id": "6956a26d965a3e78e037cf1f",
+          "uid": "686eea254af06fe1f89b528a",
+          "type": 13,
+          "dt": 1767285357,
+          "text": "[SYSTEM NOTICE]\r\n-> Status: ACTIVE\r\n    WTT Armory Installation: DETECTED\r\n    Initializing Welcome Protocol...\r\n-> Status: DEPLOYING...\r\n    Dispensing Complimentary Item...\r\n-> Status: COMPLETE\r\n    User Input: NOT REQUIRED",
+          "hasRewards": true,
+          "rewardCollected": false,
+          "items": {
+            "stash": "6956a26d965a3e78e037cf20",
+            "data": [
+              {
+                "_id": "6956a26d965a3e78e037cf21",
+                "_tpl": "679f2453d1970258c1df3fce",
+                "parentId": "6956a26d965a3e78e037cf20",
+                "slotId": "main",
+                "upd": {
+                  "Repairable": {
+                    "Durability": 100,
+                    "MaxDurability": 100
+                  },
+                  "FireMode": {
+                    "FireMode": "single"
+                  }
+                }
+              },
+              {
+                "_id": "6956a26d965a3e78e037cf22",
+                "_tpl": "679f24d15ff75ca48f6462a2",
+                "parentId": "6956a26d965a3e78e037cf21",
+                "slotId": "mod_barrel"
+              },
+              {
+                "_id": "6956a26d965a3e78e037cf23",
+                "_tpl": "679f24e723451339c041f28d",
+                "parentId": "6956a26d965a3e78e037cf21",
+                "slotId": "mod_reciever"
+              },
+              {
+                "_id": "6956a26d965a3e78e037cf24",
+                "_tpl": "679f24e0434b197ed7a10468",
+                "parentId": "6956a26d965a3e78e037cf21",
+                "slotId": "mod_pistolgrip"
+              },
+              {
+                "_id": "6956a26d965a3e78e037cf25",
+                "_tpl": "679f24edc0aba3ffa139b03f",
+                "parentId": "6956a26d965a3e78e037cf21",
+                "slotId": "mod_magazine"
+              },
+              {
+                "_id": "6956a26d965a3e78e037cf26",
+                "_tpl": "679f24edc0aba3ffa139b03f",
+                "parentId": "6956a26d965a3e78e037cf20",
+                "slotId": "main"
+              },
+              {
+                "_id": "6956a26d965a3e78e037cf27",
+                "_tpl": "679f24edc0aba3ffa139b03f",
+                "parentId": "6956a26d965a3e78e037cf20",
+                "slotId": "main"
+              },
+              {
+                "_id": "6956a26d965a3e78e037cf28",
+                "_tpl": "657025a4bfc87b3a34093250",
+                "parentId": "6956a26d965a3e78e037cf20",
+                "slotId": "main"
+              },
+              {
+                "_id": "6956a26d965a3e78e037cf29",
+                "_tpl": "58864a4f2459770fcc257101",
+                "parentId": "6956a26d965a3e78e037cf28",
+                "slotId": "cartridges",
+                "upd": {
+                  "StackObjectsCount": 50
+                }
+              }
+            ]
+          },
+          "maxStorageTime": 172800
+        }
+      ],
+      "_id": "686eea254af06fe1f89b528a"
+    }
+  },
   "spt": {
     "version": "4.0.10 (40087)",
-    "mods": [],
-    "receivedGifts": [],
+    "mods": [
+      {
+        "name": "Bright Lasers",
+        "version": "2.0.0",
+        "author": "acidphantasm",
+        "dateAdded": 1767285317
+      },
+      {
+        "name": "Backdoor Bandit Server",
+        "version": "2.0.3",
+        "author": "RaiRaiTheRaichu",
+        "dateAdded": 1767285317
+      },
+      {
+        "name": "Barter Items Stacks",
+        "version": "1.2.4",
+        "author": "SLPF",
+        "dateAdded": 1767285317
+      },
+      {
+        "name": "Borkel's Realistic Night Vision Goggles",
+        "version": "2.0.1",
+        "author": "Borkel",
+        "dateAdded": 1767285317,
+        "url": "https://github.com/Borkel/RealisticNVG-client-2/"
+      },
+      {
+        "name": "Boxes At Ref",
+        "version": "2.0.0",
+        "author": "SomoneNamedAdam",
+        "dateAdded": 1767285317,
+        "url": ""
+      },
+      {
+        "name": "CantedAiming",
+        "version": "1.0.7",
+        "author": "bushtail",
+        "dateAdded": 1767285317
+      },
+      {
+        "name": "True North",
+        "version": "1.0.0",
+        "author": "C11",
+        "dateAdded": 1767285317
+      },
+      {
+        "name": "Epics All in One",
+        "version": "4.0.0",
+        "author": "GrooveypenguinX, EpicRangeTime",
+        "dateAdded": 1767285317
+      },
+      {
+        "name": "server",
+        "version": "2.0.9",
+        "author": "Fika",
+        "dateAdded": 1767285317,
+        "url": "https://github.com/project-fika/Fika-Server-CSharp"
+      },
+      {
+        "name": "HideoutCustomizationUnlocker",
+        "version": "1.2.0",
+        "author": "Salco",
+        "dateAdded": 1767285317
+      },
+      {
+        "name": "Batteries Not Included",
+        "version": "1.0.0",
+        "author": "ozen",
+        "dateAdded": 1767285317,
+        "url": "https://github.com/ozen-m/SPT-BatteriesNotIncluded"
+      },
+      {
+        "name": "Foldables",
+        "version": "1.0.3",
+        "author": "ozen",
+        "dateAdded": 1767285317,
+        "url": "https://github.com/ozen-m/SPT-Foldables"
+      },
+      {
+        "name": "Salco's Armory",
+        "version": "1.3.0",
+        "author": "Salco",
+        "dateAdded": 1767285317
+      },
+      {
+        "name": "Skills Extended",
+        "version": "2.2.1",
+        "author": "Cj",
+        "dateAdded": 1767285317,
+        "url": "https://github.com/CJ-SPT/Skills-Extended"
+      },
+      {
+        "name": "SOCOM Armory",
+        "version": "2.0.1",
+        "author": "MT_Militia",
+        "dateAdded": 1767285317,
+        "url": "https://github.com/MT-Patriot1776/SPT-SOCOM"
+      },
+      {
+        "name": ".22 Long Rifle",
+        "version": "1.0.0",
+        "author": "C11",
+        "dateAdded": 1767285317
+      },
+      {
+        "name": "TarkovTradingCards",
+        "version": "2.0.0",
+        "author": "Chazut",
+        "dateAdded": 1767285317,
+        "url": "https://github.com/Chazut/TarkovTradingCards"
+      },
+      {
+        "name": "Weapon Customizer",
+        "version": "3.0.2",
+        "author": "Tyfon",
+        "dateAdded": 1767285317,
+        "url": "https://github.com/tyfon7/weaponcustomizer"
+      },
+      {
+        "name": "WTT-Armory",
+        "version": "1.0.0",
+        "author": "GrooveypenguinX",
+        "dateAdded": 1767285317
+      },
+      {
+        "name": "WTT-ContentBackport",
+        "version": "1.0.1",
+        "author": "GrooveypenguinX",
+        "dateAdded": 1767285317
+      },
+      {
+        "name": "WTT-ServerCommonLib",
+        "version": "2.0.9",
+        "author": "GrooveypenguinX",
+        "dateAdded": 1767285317
+      },
+      {
+        "name": "Zasten",
+        "version": "2.1.0",
+        "author": "Jayoh",
+        "dateAdded": 1767285317,
+        "url": "https://github.com/sp-tarkov/server-mod-examples"
+      },
+      {
+        "name": "SVM",
+        "version": "2.0.2",
+        "author": "GhostFenixx",
+        "dateAdded": 1767285317,
+        "url": "https://github.com/GhostFenixx"
+      }
+    ],
+    "receivedGifts": [
+      {
+        "giftId": "PraporGiftDay1",
+        "timestampLastAccepted": 1767285317,
+        "current": 1
+      },
+      {
+        "giftId": "PraporGiftDay2",
+        "timestampLastAccepted": 1767285317,
+        "current": 1
+      },
+      {
+        "giftId": "MechanicGiftDay1",
+        "timestampLastAccepted": 1767285317,
+        "current": 1
+      },
+      {
+        "giftId": "NewYear2023",
+        "timestampLastAccepted": 1767285317,
+        "current": 1
+      },
+      {
+        "giftId": "NewYear2024",
+        "timestampLastAccepted": 1767285317,
+        "current": 1
+      }
+    ],
     "blacklistedItemTpls": [],
     "freeRepeatableRefreshUsedCount": {},
     "migrations": {},
